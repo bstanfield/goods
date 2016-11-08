@@ -1,0 +1,186 @@
+.navigation {
+  width: 100%;
+  background-color: #81c458;
+  position: fixed;
+  z-index: 999;
+}
+
+.navigation img {
+  width: 50px;
+  padding: 10px 0px 15px 0px;
+}
+
+.nav-items {
+  float: right;
+  padding-top: 21px;
+  font-size: 15px;
+}
+
+.nav-items li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.nav-items a {
+  color: #22471a;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: .8px;
+  opacity: 0.8;
+}
+
+.nav-items a:hover {
+  text-decoration: underline;
+}
+
+.focus {
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://1.bp.blogspot.com/-yzLN0nkfkGs/VC92sgIGoaI/AAAAAAAAAZI/HHdRnI0Rn58/s1600/TOMS%2BCoffee%2B-%2BHello,%2BHandbag.JPG) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0px;
+}
+
+.houdini {
+  display: none;
+}
+
+.hero h1 {
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.spotlight {
+  padding-top: 160px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.hero img {
+  width: 300px;
+  padding: 30px;
+}
+
+/* Buttons */
+.btn {
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 10px 30px 10px 30px;
+}
+
+.intro button {
+  margin-top: 30px;
+}
+
+/* General */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.proposal {
+  padding-top: 100px;
+}
+
+.proposal p {
+  width: 80%;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.intro img {
+  width: 150px;
+}
+
+.intro p {
+  width: 70%;
+  margin: auto;
+}
+
+.intro .col-md-4 p {
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+}
+
+.secondary {
+  margin-top: 120px;
+}
+
+.screenshot {
+  text-align: center;
+  margin-top: 80px;
+}
+.screenshot img {
+  width: 100%;
+  border: 5px solid black;
+  max-width: 500px;
+}
+
+.section-split {
+  width: 100%;
+  height: 3px;
+  background-color: lightgrey;
+  margin-top: 80px;
+}
+
+.panel {
+  width: 100%;
+  background-color: lightgrey;
+  height: 150px;
+}
+
+.intro .col-md-4 {
+  margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+  margin-top: 80px;
+}
+
+/* Media Queries */
+@media (max-width: 930px) {
+
+    .col-md-5 {
+      display: none;
+    }
+
+    .houdini {
+      display: block;
+      text-align: center;
+    }
+
+    .hero img {
+      padding: 0px;
+      width: 200px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      width: 90%;
+    }
+
+    .intro p {
+      width: 90%;
+    }
+
+}
